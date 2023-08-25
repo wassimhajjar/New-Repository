@@ -1,0 +1,262 @@
+body {
+    margin: 0px;
+    /* background-image: url("/intro.jpeg");*/
+    background-size: cover;
+    background-color: darkblue;
+    overflow:scroll;
+}
+
+.welcome-btn{
+    border:none;
+    color:white;
+    font-size:20px;
+    margin:15px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.film img{
+    height: 250px;
+}
+.srch-container{
+    margin-right:10%;
+    width:30%;
+}
+
+.sarch{
+    display:flex;
+    height: 27px;
+}
+
+
+.nofilm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 200px;
+    width: 100%;
+    margin-top:10%;
+}
+
+.srch-icon{
+    color: black;
+    background-color: white;
+    height: 20px;
+    border-left:2px solid gray;
+    border-top:2px solid black;
+    border-bottom:2px solid gray;
+    border-left:none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width :10%  ; 
+    padding-top: 3px;
+}
+
+.srch:focus{
+    border-left:2px solid gray;
+    border-top:2px solid black;
+    border-bottom:2px solid gray;
+    border-left:none;
+    
+}
+
+.srch {
+    width: 60%;
+    border-radius: 10px;
+    text-decoration-line: none;
+    padding-top: 3px;
+    text-align: left;
+}
+
+img {
+    width: 225px;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+
+.films {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px 20px;
+}
+
+.film {
+    width: 250px;
+    margin-top: 10px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.film:hover {
+    background-color: gray;
+    opacity: .5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.slct {
+    width: 225px;
+}
+
+.session{
+    position: fixed;
+    bottom:10%;
+    right: 10%;
+    background-color: lightgray;
+    color: white;
+    padding: 5px;
+}
+
+.menu{
+    background-color: transparent;
+    border-radius: 20px;
+    margin-bottom:45px;
+    margin-top:25px;
+    margin-right: 43px;
+    margin-left:25px;
+    align-items: center;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    height:35%;
+}
+
+.logout-btn{
+    background-color: lightgray;
+    border-radius:20px;
+    margin-right:5%;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 7.5%;
+    border:none;
+    width: 100px;
+    height: 50%;
+    padding: 10px;
+    padding-right: 45px;
+    text-align: center;
+    padding: 17.5px 0;
+}
+
+.btn{
+    background-color: lightgray;
+    border-radius:20px;
+    /* margin-left:20px; */
+    /* padding-left: 16px;
+    padding-right:15px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 5px; */
+    margin-left: 50%;
+    margin-top: 10%;
+    margin-bottom: 1.5%;
+    border:none;
+    /* margin-right: 20px; */
+} 
+
+.menubtn{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    padding-bottom: 23px;
+    border-radius: 20px;
+    padding-right: 30px;
+    justify-content: center;
+    width: 60%;
+}  
+
+.cat{
+    position: relative;
+    color: black;
+    display: block;
+    margin: 5px;
+    font-weight: lighter;
+    font-size: small;
+    padding:10px;
+    line-height: 5px;
+    border-radius: 10px;
+    overflow:hidden;
+    text-align: center;
+}
+
+.cat:hover{
+    color: white;
+    background-color:lightcoral;
+}
+
+.cat:focus{
+    color: white;
+    background-color:lightcoral;
+}
+
+.cate2{
+    color: gray;
+    background-color: lightgray;
+    border-radius:20px;
+    position: absolute;
+    padding-left: 5px;
+    z-index: 50;
+    margin-top: 100px;
+    overflow: auto;
+    max-height: 250px;
+    padding-right: 20px;
+    margin-left: 40px;
+    width: var(--width/4);
+}
+
+.cate{
+    color: gray;
+    background-color: lightgray;
+    border-radius:20px;
+    position: absolute;
+    padding-left: 5px;
+    z-index: 50;
+    margin-top: 20px;
+    overflow: auto;
+    max-height: 250px;
+}
+
+.arrow{
+    margin-top: 10px;
+}
+.cat2{
+    position: relative;
+    color: black;
+    display: block;
+    margin: 5px;
+    font-weight: lighter;
+    font-size: small;
+    padding:10px;
+    line-height: 5px;
+    border-radius: 10px;
+    overflow:hidden;
+}
+
+.cat2:hover{
+    color: white;
+    background-color:lightcoral;
+}
+
+.cat2:focus{
+    color: white;
+    background-color:lightcoral;
+}

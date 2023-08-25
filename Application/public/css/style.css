@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: sans-serif;
+    display:flex;
+    justify-content: center;
+    /* height: 200vh; */
+    align-items: center;
+    background-color:  brown;
+    flex-direction: column;
+}
+
+.main-container {
+    max-width: 550px;
+    margin-left: 10px;
+}
+
+.main-container img {
+    max-width: 100%;  
+    margin-bottom: 15px;
+    padding: 15px 5px;
+    border-radius: 10px;
+}
+
+.main-container h1 {
+    color: white;
+    font-weight: 500;
+    /* font-size: 2em;double the size of the font*/
+}
+
+.main-container p {
+    color: white;
+    margin: 5px;
+}
+
+.btn {
+    background-color: yellow;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: orange;
+}
+
+.trailer-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.active.trailer-container {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.trailer-container video {
+    position: relative;
+    max-width: 900px;
+    outline: none;
+    margin-left: 20px;
+}
+
+@media (max-width:990px) {
+    .trailer-container video {
+        max-width: 90%;
+    }
+}
+
+.close-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.head-comment{
+    color: white;
+}
+
+.comment{
+    display:flex;
+    flex-direction: column;
+    padding:5px;
+    background-color: lightgray;
+    color: red;
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+.comment h3{
+    height: 10px;
+    margin-left: 15px;
+}
+
+.comment time{
+    height: 10px;
+    margin-left: 15px;
+}
+
+.comment-form{
+    background-color:lightsteelblue;
+    padding:15px; 
+    border-radius:15px; 
+    width:40%;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.comment-img{
+    width:40px;
+    height:40px; 
+    border-radius:100px;
+    margin-top:15px;
+}
+
+.comment-text{
+    width:100%;
+    font-size:large;
+    font-family:sans-serif;
+    max-width: 100%;
+}
+
+.comment-btn{
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px 40px;
+}
+
+.comment-redirect{
+    color:black; 
+    font-size:20px;
+}
+
+.comment-redirect:hover{
+    color: blue;
+}
